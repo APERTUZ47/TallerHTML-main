@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/style.css">
+    <style>
+        header {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .info {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+            color: #6c757d;
+        }
+        .container-fluid {
+            margin-top: 20px;
+        }
+        .img-container {
+            display: flex;
+            justify-content: center;
+        }
+        .img-container img {
+            max-width: 80%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header class="container-fluid text-center">
+        <h1>Mi Página Personal</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 img-container">
+                <img src="img/images.png" alt="Champion" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>Registro</h2>
+                <p>Suscríbete aquí para recibir más información.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" class="form-control" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="celular">Celular:</label>
+                        <input type="text" id="celular" class="form-control" placeholder="Ingresa tu celular">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" class="form-control" placeholder="Ingresa tu correo">
+                    </div>
+                    <div>
+                        <input type="reset" value="Borrar datos" class="btn btn-secondary mr-2">
+                        <input type="submit" value="Enviar" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2 class="info">Razones para entrenar en Champion Boxing Club</h2>
+                <ul>
+                    <li>2 campeones nacionales entrenan aquí: Maicol Rincón (130 lbs) y Ricardo Mancilla (126 lbs).</li>
+                    <li>Buena ubicación en Chapinero alto (Cra. 7 #55-22, Bogotá).</li>
+                    <li>Formación de boxeo para todos los niveles.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>¡Saludos!</h2>
+                <p>Bienvenido a mi página personal. Soy Alberto, un apasionado de los deportes y boxeador amateur en Champion Boxing Club. Desde que comencé aquí, he notado una mejora enorme en mi técnica y resistencia, gracias a los entrenadores experimentados y el ambiente de apoyo. Cada entrenamiento te reta a ser mejor, y el equipo se siente como una familia.</p>
+                <p>Entrenar boxeo no solo mejora tu condición física, sino que también desarrolla confianza, concentración y control emocional. Si quieres conocer más sobre el club, visita su página de Instagram <a href="https://www.instagram.com/championsboxingc/?hl=es" target="_blank">aquí</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <p>© 2024 Mi Página Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
